@@ -6,6 +6,18 @@
 
 基于**世界-雷达-相机-像素**的坐标系转换，直接在画面中框定方块的位置， 再基于**Z-buffer深度缓冲矩阵**，测试梅林的全场识别
 
+**Z-buffer 深度矩阵可视化**
+
+<p align="center">
+  <img src="assets/demo/zbuffer-depth-matrix.gif" alt="Z-buffer 深度矩阵可视化" width="720" />
+</p>
+
+**Z-buffer ROI 框定效果**
+
+<p align="center">
+  <img src="assets/demo/zbuffer-roi-visualization.gif" alt="Z-buffer ROI 框定效果" width="720" />
+</p>
+
 ### 1.1 核心功能包
 
 | 包名 | 功能 |
